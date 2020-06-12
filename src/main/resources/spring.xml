@@ -4,6 +4,6 @@
 	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 
     <bean id="studentMSG"
-          class="org.example.Student" />
+          class="org.example.Student"  scope="prototype"/>
 
 </beans>
